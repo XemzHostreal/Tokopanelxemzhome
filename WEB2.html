@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TokoPanel XemzHome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #fffaf7;
+      color: #333;
+    }
+
+    .breadcrumb {
+      color: #a17856;
+      margin-bottom: 20px;
+    }
+
+    .images {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .images img {
+      width: 120px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+
+    .brand {
+      color: #b88b72;
+      margin-bottom: 10px;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .rating-stars {
+      color: orange;
+      margin: 0 10px;
+    }
+
+    .bars {
+      margin: 20px 0;
+    }
+
+    .bar {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .bar-label {
+      width: 20px;
+    }
+
+    .bar-track {
+      flex: 1;
+      height: 8px;
+      background-color: #f5e8dc;
+      margin: 0 10px;
+      border-radius: 5px;
+      position: relative;
+    }
+
+    .bar-fill {
+      height: 8px;
+      background-color: orange;
+      border-radius: 5px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    .description {
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .buttons button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .add {
+      background-color: orange;
+      color: white;
+    }
+
+    .buy {
+      background-color: #f5f5f5;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="breadcrumb">Panel / Store / Dll</div>
+
+  <div class="images">
+    <img src="https://files.catbox.moe/1xoozx.jpg" alt="Dress 1">
+    <img src="https://files.catbox.moe/x4ybsl.jpg" alt="Dress 2">
+  </div>
+
+  <h1>Panel Xemz Host</h1>
+  <div class="Panel">by Xemz</div>
+
+  <div class="rating">
+    <div style="font-size: 26px; font-weight: bold;">4.9</div>
+    <div class="rating-stars">★★★★☆</div>
+    <div>80 reviews</div>
+  </div>
+
+  <div class="bars">
+    <div class="bar">
+      <div class="bar-label">5</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 95%;"></div></div>
+      <div>95%</div>
+    </div>
+    <div class="bar">
+      <div class="bar-label">4</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 20%;"></div></div>
+      <div>20%</div>
+    </div>
+    <div class="bar">
+      <div class="bar-label">3</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 3%;"></div></div>
+      <div>3%</div>
+    </div>
+    <div class="bar">
+      <div class="bar-label">2</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 2%;"></div></div>
+      <div>2%</div>
+    </div>
+    <div class="bar">
+      <div class="bar-label">1</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 1%;"></div></div>
+      <div>1%</div>
+    </div>
+  </div>
+
+  <div class="price">$BUY NANTI ADA HARGANYA</div>
+  <div class="description">
+    -Garansi 15 Hari
+    ,Expired 1Bulan,node versi 23,panel bertema.
+  </div>
+
+  <div class="buttons">
+    <button class="add">Add to Cart</button>
+    <button class="buy" onclick="window.location.href='https://your-shop-link.com'">Buy Now</button>
+  </div>
+
+</body>
+</html>
